@@ -1,0 +1,82 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo h3 {
+  color: #2da4fb;
+}
+
+.profile-input {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile-input input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+.list {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.table-header {
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.button-space {
+  margin-right: 10px;
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
